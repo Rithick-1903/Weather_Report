@@ -15,7 +15,7 @@ function App() {
     const [currenttime, setcurrenttime] = useState("")
     const [sunrise, setsunrise] = useState("")
     const [sunset, setsunset] = useState("")
-    const [isday, setisday] = useState(true)
+
 
     function selectcity(eve) {
         setmycity(eve.target.value);
